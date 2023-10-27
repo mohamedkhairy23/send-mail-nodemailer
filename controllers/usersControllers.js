@@ -8,6 +8,6 @@ module.exports = {
       "From Mohamed Khairy",
       form(req.body.title, req.body.message)
     );
-    res.send(mail);
+    res.send("Email Send Successfully");
   },
 };
